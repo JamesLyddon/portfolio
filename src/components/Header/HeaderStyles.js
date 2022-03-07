@@ -5,27 +5,25 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
+  grid-column-gap: 1rem;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 60px);
+    grid-template-rows: repeat(2, 40px);
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
 `;
 
-// export const Span = styled.span`
-//   font-size: 3rem;
-//   text-align: center;
-//   align-items: center;
-//   justify-content: center;
-//   @media ${(props) => props.theme.breakpoints.sm} {
-//     font-size: 1.2rem;
-//   }
-// `;
+export const Span = styled.span`
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.75);
+  @media ${(props) => props.theme.breakpoints.sm} {
+    gird-row: span 2;
+  }
+`;
 
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;

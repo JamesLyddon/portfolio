@@ -28,17 +28,13 @@ const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a
-          style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-          }}
-        >
-          <FiChevronLeft color={"orangered"} />
-          James Lyddon
-          <CgFormatSlash color={"orangered"} />
-          <FiChevronRight color={"orangered"} />
+        <a>
+          <Span>
+            <FiChevronLeft color={"orangered"} />
+            James Lyddon
+            <CgFormatSlash color={"orangered"} />
+            <FiChevronRight color={"orangered"} />
+          </Span>
         </a>
       </Link>
     </Div1>
