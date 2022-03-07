@@ -17,14 +17,6 @@ export const Container = styled.div`
   }
 `;
 
-export const Span = styled.span`
-  font-size: 1em;
-  color: rgba(255, 255, 255, 0.75);
-  @media ${(props) => props.theme.breakpoints.sm} {
-    gird-row: span 2;
-  }
-`;
-
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
