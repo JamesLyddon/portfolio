@@ -13,6 +13,12 @@ import { DiCode } from "react-icons/di";
 import { FiChevronLeft } from "react-icons/fi";
 import { FiChevronRight } from "react-icons/fi";
 import { CgFormatSlash } from "react-icons/cg";
+import { GiLaserWarning } from "react-icons/gi";
+import { GiBurn } from "react-icons/gi";
+import { GiCube } from "react-icons/gi";
+import { GiGhost } from "react-icons/gi";
+import { GiHoneycomb } from "react-icons/gi";
+import { GiMoebiusTriangle } from "react-icons/gi";
 
 import {
   Container,
@@ -37,7 +43,7 @@ const Header = () => (
           }}
         >
           <Icon>
-            <FaLaptop />
+            <GiMoebiusTriangle />
           </Icon>
           <Span>James_Lyddon</Span>
         </a>

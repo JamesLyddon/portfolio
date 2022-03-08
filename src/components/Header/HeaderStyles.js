@@ -48,7 +48,7 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 32px;
   color: #eeeee4;
   transition: 0.4s ease;
@@ -112,7 +112,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
-  color: white;
+  color: color: #e28743;
   border-radius: 50px;
   padding: 8px;
   &:hover {
@@ -124,12 +124,19 @@ export const SocialIcons = styled.a`
 
 export const Span = styled.span`
   color: #eeeee4;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
   margin-left: 0.5rem;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 2rem;
+  }
 `;
 
 export const Icon = styled.span`
   color: #e28743;
-  font-size: 2rem;
+  font-size: 3.5rem;
   display: flex;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 2rem;
+  }
 `;
