@@ -50,7 +50,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 1.5rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: #eeeee4;
   transition: 0.4s ease;
   &:hover {
     color: #fff;
@@ -120,4 +120,16 @@ export const SocialIcons = styled.a`
     transform: scale(1.2);
     cursor: pointer;
   }
+`;
+
+export const Span = styled.span`
+  color: #eeeee4;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+`;
+
+export const Icon = styled.span`
+  color: #e28743;
+  font-size: 2rem;
+  display: flex;
 `;

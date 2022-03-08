@@ -22,17 +22,24 @@ import {
   NavLink,
   SocialIcons,
   Span,
+  Icon,
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <FiChevronLeft color={"orangered"} />
-          James Lyddon
-          <CgFormatSlash color={"orangered"} />
-          <FiChevronRight color={"orangered"} />
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            margin: "0.5rem",
+          }}
+        >
+          <Icon>
+            <FaLaptop />
+          </Icon>
+          <Span>James_Lyddon</Span>
         </a>
       </Link>
     </Div1>
@@ -55,16 +62,16 @@ const Header = () => (
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/JamesLyddon">
-        <AiFillGithub size="2rem" color={"orangered"} />
+        <AiFillGithub size="2.5rem" color={"#e28743"} />
       </SocialIcons>
       <SocialIcons href="https://linkedin.com/in/james-lyddon">
-        <AiFillLinkedin size="2rem" color={"orangered"} />
+        <AiFillLinkedin size="2.5rem" color={"#e28743"} />
       </SocialIcons>
       <SocialIcons href="mailto:jameslyddon@gmail.com" target="_blank">
-        <AiFillMail size="2rem" color={"orangered"} />
+        <AiFillMail size="2.5rem" color={"#e28743"} />
       </SocialIcons>
       <SocialIcons href="tel:555-555-5555">
-        <AiFillPhone size="2rem" color={"orangered"} />
+        <AiFillPhone size="2.5rem" color={"#e28743"} />
       </SocialIcons>
     </Div3>
   </Container>
