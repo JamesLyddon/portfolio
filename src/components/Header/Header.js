@@ -45,7 +45,7 @@ const Header = () => (
           <Icon>
             <GiMoebiusTriangle />
           </Icon>
-          <Span>James_Lyddon</Span>
+          <Span>JRL_DEV</Span>
         </a>
       </Link>
     </Div1>

@@ -23,7 +23,7 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
-      <Slogan>Get in touch</Slogan>
+      <Slogan>reach out</Slogan>
       <Div3>
         <SocialContainer>
           <SocialIcons href="https://github.com/JamesLyddon">

@@ -25,11 +25,11 @@ export const Section = styled.section`
 `;
 
 export const SectionTitle = styled.h2`
-  font-weight: 800;
+  font-weight: 600;
   margin-left: 1rem;
   text-shadow: -4px -4px 1px rgba(238, 238, 228, 0.95);
   font-size: ${(props) => (props.main ? "65px" : "56px")};
-  line-height: ${(props) => (props.main ? "72px" : "56px")};
+  line-height: ${(props) => (props.main ? "92px" : "56px")};
   width: max-content;
   max-width: 100%;
 

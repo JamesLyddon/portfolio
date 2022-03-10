@@ -31,6 +31,7 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -53,8 +54,9 @@ export const NavLink = styled.a`
   color: #eeeee4;
   transition: 0.4s ease;
   &:hover {
+    font-weight: bold;
     color: #fff;
-    opacity: 1;
+    font-size: 2rem;
     cursor: pointer;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -114,9 +116,10 @@ export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: color: #e28743;
   border-radius: 50px;
+  margin: 0 0.5rem;
   padding: 8px;
   &:hover {
-    background-color: #212d45;
+    background-color: #eeeee4;
     transform: scale(1.2);
     cursor: pointer;
   }
@@ -124,9 +127,15 @@ export const SocialIcons = styled.a`
 
 export const Span = styled.span`
   color: #eeeee4;
+  transition: 0.3s ease;
   font-size: 2.5rem;
   font-weight: 600;
-  margin-left: 0.5rem;
+  margin-left: 1rem;
+  &:hover {
+    color: #fff;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 2rem;
   }

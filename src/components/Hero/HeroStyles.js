@@ -1,7 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
+  margin-top: 5rem;
   width: 100%;
+  height: 80vh;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
     display: flex;
