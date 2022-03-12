@@ -1,7 +1,8 @@
 import Acomplishments from "../components/Acomplishments/Acomplishments";
 import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
-import Cube from "../components/Cube/Cube";
-import Floor from "../components/Floor/Floor";
+import Cube1 from "../components/Cube1/Cube1";
+import Cube2 from "../components/Cube2/Cube2";
+import Cube3 from "../components/Cube3/Cube3";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Technologies from "../components/Technologies/Technologies";
@@ -17,14 +18,15 @@ const Home = () => {
       <Section grid>
         <Hero />
         <Canvas
-          shadows={true}
           camera={{
             position: [-6, 7, 7],
           }}
         >
-          <ambientLight color="white" intensity={1} />
-          <Cube />
-          <Floor position={[0, -5, 0]} />
+          <ambientLight color="white" intensity={0.7} />
+          <spotLight position={[5, 5, 5]} angle={1.5} intensity={1} />
+          <Cube1 position={[0, 3, 0]} />
+          <Cube2 position={[0, 3, 0]} />
+          <Cube3 position={[0, 3, 0]} />
         </Canvas>
       </Section>
       <Projects />
