@@ -115,9 +115,9 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: color: #e28743;
-  border-radius: 50px;
+  border-radius: 10px;
   margin: 0 0.5rem;
-  padding: 8px;
+  padding: 10px;
   &:hover {
     background-color: #eeeee4;
     transform: scale(1.2);
@@ -127,7 +127,7 @@ export const SocialIcons = styled.a`
 
 export const Span = styled.span`
   color: #eeeee4;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   font-size: 2.5rem;
   font-weight: 600;
   margin-left: 1rem;
@@ -143,8 +143,14 @@ export const Span = styled.span`
 
 export const Icon = styled.span`
   color: #e28743;
+  padding: 0.6rem;
+  border-radius: 30px;
   font-size: 3.5rem;
   display: flex;
+  transition: 0.5s ease;
+  &:hover {
+    transform: rotate(0.3turn);
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 2rem;
   }
