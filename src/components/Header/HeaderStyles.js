@@ -1,6 +1,18 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 import styled, { keyframes } from "styled-components";
 
+const wiggle = keyframes`
+  0% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  100% { transform: rotate(-10deg); }
+`;
+
+const whirl = keyframes`
+  10% { transform: rotate(0deg); }
+  50% { transform: rotate(360deg); }
+  60% { transform: rotate(0deg); }
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -120,6 +132,7 @@ export const SocialIcons = styled.a`
   border-radius: 10px;
   margin: 0 0.5rem;
   padding: 10px;
+  animation: ${wiggle} 4s ease infinite;
   &:hover {
     background-color: #eeeee4;
     transform: scale(1.2);
@@ -150,9 +163,7 @@ export const Icon = styled.span`
   font-size: 3.5rem;
   display: flex;
   transition: 0.5s ease;
-  &:hover {
-    transform: rotate(0.3turn);
-  }
+  animation: ${whirl} 6s ease infinite;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 2rem;
   }
