@@ -52,10 +52,12 @@ export const NavLink = styled.a`
   font-size: 1.7rem;
   line-height: 32px;
   color: #eeeee4;
+  padding: 1rem;
+  border-radius: 10px;
   transition: 0.4s ease;
   &:hover {
-    font-weight: bold;
     color: #fff;
+    background: #e28743;
     font-size: 2rem;
     cursor: pointer;
   }
