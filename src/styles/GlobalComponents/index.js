@@ -178,7 +178,7 @@ export const SecondaryBtn = styled.button`
 `;
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => (alt ? "150px" : "262px")};
+  width: ${({ alt }) => (alt ? "150px" : "220px")};
   height: ${({ alt }) => (alt ? "52px" : "64px")};
   border-radius: 50px;
   font-size: ${({ alt }) => (alt ? "20px" : "24px")};
@@ -193,10 +193,17 @@ export const ButtonBack = styled.div`
       ? "linear-gradient(270deg, #ff622e 0%, #B133FF 100%)"
       : "linear-gradient(270deg, #eab676 0%, #e28743 100%)"};
   cursor: pointer;
-  transition: 0.5s ease;
+  transition: 1s ease;
   position: relative;
   overflow: hidden;
   opacity: ${({ disabled }) => (disabled ? ".5" : "1")};
+
+  &:hover {
+    width: ${({ alt }) => (alt ? "170px" : "270px")};
+    height: ${({ alt }) => (alt ? "72px" : "64px")};
+    color: #eeeee4;
+    background: #e28743;
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: ${({ alt }) => (alt ? "150px" : "184px")};
