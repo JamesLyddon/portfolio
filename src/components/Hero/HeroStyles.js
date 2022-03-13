@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const LeftSection = styled.div`
-  margin-top: 5rem;
+  margin: 5rem 2rem;
   width: 100%;
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 

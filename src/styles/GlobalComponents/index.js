@@ -8,7 +8,7 @@ export const Section = styled.section`
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
-  overflow: hidden;
+  overflow: hiden;
   grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -65,10 +65,11 @@ export const SectionTitle = styled.h2`
 export const SectionText = styled.p`
   max-width: 800px;
   margin-left: 2rem;
+  margin-right: 2rem;
   font-size: 24px;
   line-height: 40px;
   font-weight: 300;
-  padding-bottom: 3.6rem;
+  padding-bottom: 2rem;
   color: rgba(238, 238, 228, 0.9);
 
   @media ${(props) => props.theme.breakpoints.md} {
