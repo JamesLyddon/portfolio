@@ -28,9 +28,9 @@ const Home = () => {
           <Cube3 position={[0, 3, 0]} />
         </Canvas>
         <Hero />
+        <Technologies />
       </Section>
       <Projects />
-      <Technologies />
       <Timeline />
       <Acomplishments />
     </Layout>
