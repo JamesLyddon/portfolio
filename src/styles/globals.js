@@ -17,7 +17,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    
+    max-width: 100vw;
+    overflow-x: hidden;
     background-image: linear-gradient(to left top, #e28743, #ec716c, #db6a96, #b272b6, #797cc1, #5b78b9, #3c73ae, #106ea1, #086095, #055389, #05467d, #063970);
     color: ${(props) => props.theme.colors.primary1};
     cursor: default;

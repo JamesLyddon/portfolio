@@ -10,7 +10,7 @@ const Cube1 = (props) => {
   });
   return (
     <mesh {...props} ref={myMesh}>
-      <boxBufferGeometry args={[3, 3, 3]} />
+      <boxBufferGeometry args={[2, 2, 2]} />
       <meshPhysicalMaterial color="rgba(226,135,67, 1)" />
     </mesh>
   );

@@ -18,9 +18,10 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Hello, Ahoy-hoy, <br />
+        Hello, <br />
         and welcome to <br />
         my portfolio. <br />
+        <br />
         I'm Jim and I make <br />
         Internet things.
       </SectionTitle>

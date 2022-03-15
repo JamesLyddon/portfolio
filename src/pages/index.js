@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <Layout>
       <Section grid>
-        <Canvas
+        {/* <Canvas
           camera={{
             position: [-6, 7, 7],
           }}
@@ -26,8 +26,9 @@ const Home = () => {
           <Cube1 position={[0, 3, 0]} />
           <Cube2 position={[0, 3, 0]} />
           <Cube3 position={[0, 3, 0]} />
-        </Canvas>
+        </Canvas> */}
         <Hero />
+        <BgAnimation />
         <Technologies />
       </Section>
       <Projects />

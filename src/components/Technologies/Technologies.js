@@ -17,7 +17,7 @@ import {
   DiIllustrator,
   DiWordpress,
 } from "react-icons/di";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiGraphql, SiJira } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -55,31 +55,35 @@ const Technologies = () => (
             <DiBootstrap size="3rem" color={"#e28743"} />
             <DiSass size="3rem" color={"#e28743"} />
             <SiTailwindcss size="3rem" color={"#e28743"} />
-            <DiWordpress size="3rem" color={"#e28743"} />
           </ListParagraph>
 
           <ListParagraph>
-            HTML | CSS | JavaScript | ES6 | React Bootstrap Sass Tailwind
-            Wordpress
+            HTML | CSS | JavaScript | ES6 | React | Bootstrap | Sass | Tailwind
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> Node and Databases
+            <DiNodejsSmall size="3rem" color={"#e28743"} />
+            <DiMongodb size="3rem" color={"#e28743"} />
+            <SiGraphql size="3rem" color={"#e28743"} />
           </ListParagraph>
+          <ListParagraph>NodeJS | MongoDB | GraphQL</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Other</ListTitle>
           <ListParagraph>
-            Experience with <br /> Figma
+            <DiUnitySmall size="3rem" color={"#e28743"} />
+            <DiPhotoshop size="3rem" color={"#e28743"} />
+            <DiIllustrator size="3rem" color={"#e28743"} />
+            <DiWordpress size="3rem" color={"#e28743"} />
+            <SiJira size="3rem" color={"#e28743"} />
           </ListParagraph>
+          <ListParagraph>Unity | Photoshop | Illustrator | Jira </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
